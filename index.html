@@ -43,7 +43,7 @@ document.MM_returnValue = true;
 //-->
 </script>
  </head>
-<body>
+<body data-pagefind-ignore>
 <a name="start"></a>
 <center>
 <TABLE WIDTH=100% CELLSPACING=0 CELLPADDING=0 BGCOLOR=#FFFFFF>
@@ -520,13 +520,10 @@ title="Архив опросов и голосований">Архив опро�
 		<p class="textnum">Версия от: 30/12/2005 14:35:16
     </td>
     <td align="right" valign="top" bgcolor="#c9c9c9" width="25%">
-	<form method="get" action="/cgi-bin/search.pl" class="go">
-	<INPUT TYPE="Text" NAME="query" value="" SIZE="20" class="sub">
-	<INPUT TYPE="Hidden" NAME="stpos" VALUE="0">
-	<INPUT TYPE="submit" NAME="Search" value="Hайти" class="sub"><br>
-	<INPUT TYPE="Radio" NAME="stype" VALUE="AND" checked>и
-	<INPUT TYPE="Radio" NAME="stype" VALUE="OR">или&nbsp;
-    </td>
+	<form method="get" action="search.htm" class="go">
+	<INPUT TYPE="Text" NAME="q" value="" SIZE="20" class="sub">
+	<INPUT TYPE="submit" value="Hайти" class="sub"><br>
+	</td>
 	</form>
    </tr>
   </table>

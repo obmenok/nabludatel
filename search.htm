@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Поиск по архиву: Вятский Наблюдатель</title>
+<link href="pagefind/pagefind-ui.css" rel="stylesheet">
+<style>
+body { font-family: Verdana, Arial, sans-serif; max-width: 860px; margin: 0 auto; padding: 16px; background: #fff; color: #222; }
+.top { text-align: center; margin-bottom: 16px; }
+.top img { max-width: 100%; height: auto; }
+.menu a { margin: 0 8px; }
+.note { color: #666; font-size: 13px; margin: 10px 0 18px; }
+</style>
+</head>
+<body data-pagefind-ignore>
+<div class="top">
+  <a href="index.htm"><img src="img/logo.gif" alt="Вятский Наблюдатель"></a>
+  <p class="menu"><a href="index.htm">Домой</a> &bull; <a href="guestbook/guestbook.htm">Гостевая</a> &bull; <a href="about.htm">О нас</a></p>
+</div>
+<h2>Поиск по архиву</h2>
+<p class="note">Ищет по номерам газеты, ленте новостей и гостевой книге 1998&ndash;2005 годов. Несколько слов в запросе означают &laquo;и&raquo;.</p>
+<div id="search"></div>
+<script src="pagefind/pagefind-ui.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+  // сайт лежит в подпапке (/nabludatel/), поэтому адреса результатов строим от папки этой страницы
+  var base = location.pathname.replace(/[^/]*$/, '');
+  var ui = new PagefindUI({ element: '#search', baseUrl: base, showImages: false, showSubResults: false, resetStyles: false, autofocus: true });
+  var q = new URLSearchParams(location.search).get('q');
+  if (q) { ui.triggerSearch(q); }
+});
+</script>
+</body>
+</html>
