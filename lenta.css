@@ -1,0 +1,63 @@
+body {
+ font:normal normal 11pt "Times New Roman",sans-serif;
+ background-color:#ffffff;
+ margin-top:5px;
+}
+OL,A { font:normal normal 10pt Arial,sans-serif; }
+SMALL {
+ font-size:8pt;
+}
+P {
+ margin-top:1pt;
+ text-indent:1em;
+}
+HR.hrn {
+ heigth:1px;
+ color:#6090C0;
+}
+
+.txt {
+ font-size:9pt;
+}
+.header {
+ color:#766a3c;
+ text-align:center;
+ font:normal bold 12pt Arial,sans-serif;
+}
+.lhead	 {
+ color:white;
+ text-align:center;
+ font:normal bold 14pt Arial,sans-serif;
+ background-color:#6090c0;
+}
+.lentadate {
+ width:25%;
+ color:navy;
+ font:normal normal 9pt Arial,sans-serif;
+ margin-top:3pt;
+ margin-left:9pt;
+ background-color:#dfefff;
+}
+.lentasag {
+ color:navy;
+ text-align:center;
+ font:normal bold 12pt Arial,sans-serif;
+ background-color:#c9dfef;
+}
+P.lentaan,P {
+ width:90%;
+ color:navy;
+ text-indent:1em;
+ text-align:justify;
+ font-family:"Times New Roman",sans-serif;
+ font-size:12pt;
+ margin-left:18pt;
+}
+
+.divarch { text-align:right; }
+
+.menu {color:navy; text-align:right; font-family:Arial; font-size:9pt; text-decoration:underline;}
+.menu:hover {color:red; font-family:Arial; font-size:9pt; text-decoration:none;}
+.copy {color:navy; text-align:center; font:normal normal 8pt Arial,sans-serif;}
+
+a:hover { color:red; }

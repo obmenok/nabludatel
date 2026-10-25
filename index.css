@@ -1,0 +1,109 @@
+body {background-color:#C9C9C9; margin:3px; 0 0 0;}
+p   {color:navy; font-family:Helvetica,Arial; font-size:10pt;}
+h1  {color:#766a3c; text-align:center; font-family:Helvetica,Arial; font-size: 14pt; font-weight:bold;}
+h2  {color:#766a3c; text-align:center; font-family:Helvetica,Arial; font-size: 12pt; font-weight:bold;}
+h3 {font-size:10pt; font-family:Helvetica,Arial;}
+h4 {font-size:9pt; font-family:Helvetica,Arial;}
+h5 {font-size:8pt; font-family:Helvetica,Arial;}
+form {font-size:9pt; font-family:Helvetica,Arial;}
+ul {margin-left:2em; margin-top:-3pt;}
+li {margin-left:1em; margin-top:-3pt;}
+alt {color:navy; font-family:Helvetica,Arial; font-size:7pt;}
+
+/*table.sakas {font-size:8pt; font-family:Helvetica;}*/
+
+.headtitle {color:#ffffff; font-family:Helvetica,Arial; font-size:14pt;}
+.title	 {color:#766a3c; text-align:center; font-family:Helvetica,Arial; font-size: 11pt; font-weight:bold; text-decoration:underline;}
+.text 	 {color:black; font-family:Helvetica,Arial; font-size:8pt;}
+.bigtext {color:black; font-family:Helvetica,Arial; font-size:10pt;}
+.abouttext {color:navy; font-family:Helvetica, sans-serif; font-size:10pt; text-indent:1em;}
+.ha 	 {color:navy; font-family:Helvetica,Arial; font-size:8pt;}
+.tt { border:1ps solid silver; }
+.stxt { font:normal normal 10pt Helvetica,Arial,sans-serif; }
+
+.allf {color:navy; width:100%; text-indent:1em; font-family:Helvetica,Arial; font-size:8pt; background:#dedede; border:1px solid navy;}
+.stf {color:navy; padding-left:2px; font-family:Helvetica,Arial; font-size:8pt; border:1px solid silver;}
+.astf {color:navy; padding-left:2px; font-family:Helvetica,Arial; font-size:8pt;}
+.astf:hover { color:red; text-decoration:none; }
+
+.rasdel	 {text-align:center; color:#766a3c; font:normal bold 9pt Helvetica,Arial,sans-serif; background:#E9E9E9;}
+.mrasdel  {color:navy; padding-left:2px; font-family:Helvetica,Arial; font-size:8pt;}
+.mrasdel:hover {color:red; text-decoration:none;}
+.archiv {color:navy; font-family:sans-serif; font-size:8pt; margin-left:8pt; text-decoration:none;}
+.archiv:hover {color:white; font-family:sans-serif; font-size:8pt; margin-left:8pt; text-decoration:none; background-color:#6090C0;}
+
+.reklamatit  {color:#766a3c; text-align:center; font-family:Helvetica,Arial; font-size: 14pt; font-weight:bold;}
+.reklamazag {color:navy; text-align:center font-family:Helvetica, sans-serif; font-size:10pt;}
+.reklamanews {color:navy; font-family:Helvetica, sans-serif; font-size:9pt; text-indent:1em;}
+.reklamatab {color:navy; text-align:center font-family:Helvetica, sans-serif; font-size:10pt;}
+.reklamatxt {color:navy; font-family:Verdana, sans-serif; font-size:10pt; text-indent:1em;}
+.reklamabigtxt {color:navy; font-family:Helvetica, sans-serif; font-size:12pt; text-indent:1em;}
+.reklama {color:navy; font-family:Helvetica, sans-serif; font-size:9pt;}
+.reklama:hover {color:red; text-decoration:none;}
+.litab {margin-left:1em; margin-top:-0pt;}
+.sakas {color:navy; text-align:center font-family:Helvetica, sans-serif; font-size:10pt;}
+.ptop {margin-top:5pt;}
+
+.redaktor {color:darkblue; text-indent:1em; font-family:Helvetica,Arial; font-size:9pt; margin-top:-1pt;}
+.lenta	 {color:#766a3c; text-align:center; font-family:Helvetica,Arial; font-size:10pt; font-weight:bold; background-color:#dedede}
+.lhead,.flash	 {color:navy; text-align:center; font-family:Helvetica,Arial; font-size:9pt; font-weight:bold; margin-bottom:3pt;}
+/*.ltext	 {color:navy; text-align:justify; font-family:Helvetica,Arial; font-size:9pt; text-decoration:none; margin:-9pt 0 0 9pt;}*/
+.ltext	 {color:navy; text-align:justify; font-family:Helvetica,Arial; font-size:9pt; text-decoration:none; margin-top:2pt; margin-bottom:-1pt; }
+.ltext:hover {color:red; text-decoration:underline;}
+.flash {color:blue;}
+.divarch {display:block; font:normal normal 9pt Helvetica,Arial,sans-serif; text-align:right; }
+
+.numer	   {color:#766a3c; text-align:center; font-family:Helvetica,Arial; font-size:10pt;
+            font-weight:bold; background-color:#dedede}
+.numerhead {color:white; text-align:left; font-family:Helvetica,Arial;
+            font-size:9pt; font-weight:bold; margin:0 15pt 0 0; background-color:#6090c0;}
+.numerrasd {margin:0 60pt 0 0; color:navy; font-family:Helvetica,Arial;
+            font-size:9pt; background-color:#c9dfef;}
+/*.nrr {margin:0 60pt 0 0; color:navy; font-family:Helvetica,Arial;
+            font-size:9pt; background-color:#c9dfef;}*/
+.numerrasd {margin:0 60pt 0 0; color:navy; font-family:Helvetica,Arial;
+            font-size:9pt; background-color:#c9dfef;}
+.numercom {color:navy; font-family:Helvetica,Arial; font-size:9pt;
+           text-indent:1em; margin:0 70pt 10pt 0; background-color:#dfdfdf;}
+.numertext {color:navy; font-family:Helvetica,Arial;
+            text-indent:2em; font-size:9pt; margin:2pt 0 0 0;}
+.numerphoto {color:navy; font-family:Helvetica,Arial; font-size:9pt;
+             font-style:italic;}
+.numerm {color:navy; text-indent:3em; font-family:Helvetica,Arial;
+         font-size:9pt; text-decoration:underline;}
+.numerm:hover {color:red; text-decoration:none;}
+
+.mtext	 {color:#cdcdcd; font-family:Helvetica,Arial; font-size:8pt; font-weight:bold;}
+.sponsor  {color:navy; font-family:Helvetica,Arial; font-size: 9pt;}
+.bukv	 {color:#333300; font-family:Helvetica,Arial; font-size:14pt; font-style:Italic}
+
+.titlenum {color:navy; text-align:center; font-family:Helvetica,Arial; font-size:9pt; margin-left:2pt;}
+.nnum	  {color:navy; font-family:Helvetica,Arial; font-size:9pt; margin-left:2pt;}
+.textnum  {color:navy; text-align:right; font-family:Helvetica,Arial; font-size:7pt; margin-top:1pt;}
+
+.go	 {color:black; font-family:Helvetica,Arial; font-size:7pt;}
+.impsearch {width:15em; font-size:10pt; border:1px solid}
+.sub	 {color:navy; font-size:8pt; font-family:Helvetica;}
+.subsearch {color:black; font-size:7pt; font-family:Helvetica; background:#dfdfdf;}
+
+.menu	 {color:navy; font-family:Helvetica,Arial; font-size:8pt;}
+.menu:hover {color:red; font-family:Helvetica,Arial; font-size:8pt;}
+
+.wmenu	 {color:white; font-family:Helvetica,Arial; font-size:9pt;}
+.wmenu:hover {color:yellow; font-family:Helvetica,Arial; font-size:9pt; text-decoration:none}
+
+.about	 {padding-left:1em; color:navy; font-family:Verdana; font-size:10pt; text-indent:10;}
+.guest	 {padding-left:1em; color:navy; font-family:Verdana; font-size:9pt; text-indent:10;}
+.votetext {color:navy; font-family:Helvetica,Arial; font-size:8pt;}
+.voteres {color:navy; font-family:Helvetica,Arial; font-size:7pt;}
+.votetitle {color:navy; width:100%; text-indent:1em; font-family:Helvetica,Arial; font-size:8pt; background:#dedede;}
+
+.slink { font-size: 11pt; }
+.red { color:red; }
+.rr {color:red; font-size:12pt;}
+.des	 {color:navy; font-family:Helvetica,Arial; font-size:7pt;}
+.w	 {color:steelblue; font-family:Helvetica,Arial; font-size:7pt; margin-left:5pt;}
+.soros	 {color:navy; text-align:right; font-family:Helvetica,Arial; font-size:7pt;}
+.copy	 {color:navy; text-align:center; font-family:Helvetica,Arial; font-size:8pt;}
+
+a:hover	 {color:navy; text-decoration:underline;}
